@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pset1"
+version = "0.1.0"
+description = "Problem set 1 for COMS 4281 - Introduction to Quantum Computing"
+authors = ["johnb <chb2154@columbia.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+qiskit = "^0.37.2"
+matplotlib = "^3.5.3"
+numpy = "^1.23.2"
+pylatexenc = "^2.10"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
